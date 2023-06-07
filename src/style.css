@@ -1,0 +1,129 @@
+h1 {
+    text-align:center;
+    font-family:'Times New Roman', Times, serif;
+    font-size:medium;
+  }
+
+  body {
+    background-color: #defbfd;
+}
+
+#reset-button {
+    background-color: rgb(221, 125, 224);
+    color: hsl(0, 0%, 2%);
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+p  {
+    text-align:center;
+ color:rgb(119, 68, 167)
+ 
+}
+
+#giphy.gif{
+ position: right;
+}
+
+h2{
+    text-align:center;
+    font-family:'Times New Roman', Times, serif;
+  }
+
+  #textarea {
+    text-align:center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border-radius: 30px;
+  }
+
+  .header {
+    text-align:center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border-radius: 30px;
+  }
+
+
+  #texa{
+    padding-bottom: 0;  
+  }
+  
+  .mama{
+    display: flex; /* Aplica un diseño flexible a la lista */ 
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .box {
+    background-color: #defbfd;
+    border: 1px solid #8c3797;
+  border-radius: 20px;
+  width: 100px; /* Ancho de la caja */
+  height: 60px; /* Alto de la caja */
+  list-style: none; /* Elimina los estilos de viñetas de la lista */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+
+  .box1 {
+    background-color: #defbfd;
+    border: 1px solid #8c3797;
+    border-radius: 20px;
+    width: 100px; /* Ancho de la caja */
+    height: 60px; /* Alto de la caja */
+    list-style: none; /* Elimina los estilos de viñetas de la lista */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+    .box2 {
+      background-color: #defbfd;
+      border: 1px solid #8c3797;
+      border-radius: 20px;
+      width: 100px; /* Ancho de la caja */
+      height: 60px; /* Alto de la caja */
+      list-style: none; /* Elimina los estilos de viñetas de la lista */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      }
+
+    .box3 {
+      background-color: #defbfd;
+      border: 1px solid #8c3797;
+      border-radius: 20px;
+      width: 100px; /* Ancho de la caja */
+      height: 60px; /* Alto de la caja */
+      list-style: none; /* Elimina los estilos de viñetas de la lista */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      }
+
+      
+    .box4 {
+      background-color: #defbfd;
+      border: 1px solid #8c3797;
+      border-radius: 20px;
+      width: 130px; /* Ancho de la caja */
+      height: 60px; /* Alto de la caja */
+      list-style: none; /* Elimina los estilos de viñetas de la lista */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      }
+
+      .box5 {
+        background-color: #defbfd;
+        border: 1px solid #8c3797;
+        border-radius: 20px;
+        width: 100px; /* Ancho de la caja */
+        height: 60px; /* Alto de la caja */
+        list-style: none; /* Elimina los estilos de viñetas de la lista */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        }
+  
