@@ -8,46 +8,40 @@
 </head>
 
 <body>
-   <center>
- <img src = "../imagenes/welcome.jpg"
- alt="welcome"
- width="1000"
- align-items:center>
- <h1>Text analyzer</h1>
-</center> 
-<header>
   <center>
-   
- <form action>
- <h2>What can I analyze for you today?</h2>
- <h3>Whrite just here &dArr; &dArr; &dArr;</h2> 
-
-  <textarea id="textarea1"  rows="10" cols="50" oninput="contarCaracteres()"></textarea>
-
-  <ul class="mama">
-     <li class="box" p id="contarPalabras">0 palabras</p> > Recuento de palabras</li>
-     <li class="box1" p id="contarCaracteres1">0 caracteres</p> >Recuento de caracteres</li>
-     <li class="box2"p id ="sinPuntosniespacios"> 0 caracteres</p> Recuento de caracteres excluyendo espacios y signos de puntuación</li>
-     <li class="box3" p id="numeros"> 0 caracteres</p> Recuento de números</li>
-     <li class="box4" p id ="suma1"> 0 caracteres</p> Suma total números</li>
-     <li class="box5"> Longitud  palabras</li>
-  </ul> 
-  </form>
-
-<button id="reset-button">magic</button>
-
-</center>
-</div>
-</div>
-</div>
-<div style="text-align: right;">
-  <img src="../imagenes/giphy.gif"  alt="perrito estudioso" >
-</header>
-
+    <img src="../imagenes/welcome.jpg" alt="welcome" width="1000">
+    <h1>Text analyzer</h1>
+  </center>
   
-<footer> 
-   <p>Copyright &copy; 1996-2023 Paola Montilla, todos los derechos reservados.</p>
+  <header>
+    <center>
+      <form action="">
+        <h1>What can I analyze for you today?</h1>
+        <h3>Write just here &dArr; &dArr; &dArr;</h3>
+        <textarea name="user-input" rows="10" cols="50"></textarea>
+        <ul class="box">
+          <li class="box1"><p class="getWordcount">0 palabras</p>Recuento de palabras</li>
+          <li class="box2"><p class="getCharacterCount">0 caracteres</p>Recuento de caracteres</li>
+          <li class="box3"><p class="getCharacterCountExcludingSpaces">0 caracteres</p>Recuento sin espacios y signos de p.</li>
+          <li class="box4"><p class="getAverageWordLength">0 caracteres</p>Longitud palabras</li>
+          <li class="box5"><p class="getNumberCount">0 caracteres</p>Contar número</li>
+          <li class="box6"><p class="getNumberSum">Suma Total números</p></li>
+        </ul>
+      </form>
+      
+      <button id="reset-button">magic</button>
+    </center>
+    
+    <div style="text-align: right;">
+      <img src="../imagenes/giphy.gif" alt="perrito estudioso">
+    </div>
+  </header>
+  
+  <footer>
+    <p>Copyright &copy; 1996-2023 Paola Montilla, todos los derechos reservados.</p>
+  </footer>
+  
+  <script src="index.js" type="module"></script>
 
-   <script src="index.js"></script>
 </body>
 </html>
