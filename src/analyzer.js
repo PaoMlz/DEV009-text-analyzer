@@ -1,12 +1,4 @@
 const analyzer = {
-  getWordCount: (text) => {
-    if (typeof text !== 'string') {
-      return 0; // Otra acción adecuada según tus necesidades.Funciona
-    }
-    return text.split(' ').length;
-  },
-  
-    
   getCharacterCount: (text) => {
     // Esta función retorna el recuento de caracteres en el parámetro `text` de tipo `string`.
     return text.length;
@@ -24,16 +16,13 @@ const analyzer = {
     return count;
   },
   
-  
-  getAverageWordLength: (text) => {
-    // Esta función retorna la longitud media de palabras en el parámetro `text` de tipo `string`.
-    const words = text.split(' ');
-    const wordCount = words.length;
-    const totalLength = words.reduce((acc, word) => acc + word.length, 0);
-    const averageLength = wordCount > 0 ? totalLength / wordCount : 0;
-    return parseFloat(averageLength.toFixed(2));
+  getWordCount: (text) => {
+    if (typeof text !== 'string') {
+      return 0;
+    }
+    return text.split(' ').length;
   },
-  
+    
   getNumberCount: (text) => {
     // Esta función retorna la cantidad de números en el parámetro `text` de tipo `string`.
     const numbers = text.match(/\b\d+(\.\d+)?\b/g) || [];
@@ -58,9 +47,20 @@ const analyzer = {
       }
     });
     return sum;
+  },
+
+  getAverageWordLength: (text) => {
+    // Esta función retorna la longitud media de palabras en el parámetro `text` de tipo `string`.
+    const words = text.split(' ');
+    const wordCount = words.length;
+    const totalLength = words.reduce((acc, word) => acc + word.length, 0);
+    const averageLength = wordCount > 0 ? totalLength / wordCount : 0;
+    return parseFloat(averageLength.toFixed(2));
   }
 };
-  
+
 export default analyzer;
+
   
+
   
